@@ -5,7 +5,7 @@
 /.+edu\.cn/
 /.+gov\.cn/
 /.+net\.cn/
-/.+org\.cn/
+/.+org\.cn//
 ||*-cn.amazon.com
 ||00cdn.com
 ||0daydown.com
