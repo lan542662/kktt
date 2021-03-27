@@ -1,9 +1,10 @@
-/.+\.com\.cn/
-/.+ac\.cn/
-/.+acs\.cn/
-/.+edu\.cn/
-/.+gov\.cn/
-/.+net\.cn/
+/.+\.com\.cn//
+/.cn//
+/.+ac\.cn//
+/.+acs\.cn//
+/.+edu\.cn//
+/.+gov\.cn//
+/.+net\.cn//
 /.+org\.cn//
 ||*-cn.amazon.com
 ||00cdn.com
