@@ -61,7 +61,7 @@ ctrl+shift+p 输入snippets自行添加
 
 ${mdFileName}${extName}
 LTAI4G5KKM1hqJT6bwn3nrqy
-UTbDEASUnAagpaZc8kv1zJZ7cjJ2rm
+UTbDEASUnAagpaZc8kv1zJZ7cjJ2阿里云好烦，移除字母
 oss-cn-shanghai
 kktt007
 https://kktt007.top
