@@ -73,6 +73,7 @@ img/
 
 - ## 配置文件
 [EditorConfig for VS Code](#6a)<a id="a6"></a>
+
 ```
 #EditorConfig文件使用INI格式。斜杠(/)作为路径分隔符，#或者;作为注释。路径支持通配符:
 #表明是最顶层的配置文件，发现设为true时，才会停止查找.editorconfig文件
@@ -129,6 +130,7 @@ windows:[AutoHotKey vim](https://github.com/JakubNer/autokey-autohotkey-vim-nav)
 或者[配置用alt](https://www.aukocharlie.com/archives/vscode设置双快捷键)
 
 更改内置，在有ahk的时候就可以不用了，因为不是capslock
+
 ```
 [
   { 
@@ -207,6 +209,7 @@ linux:
 - [xmodmap](https://tonsky.me/blog/cursor-keys/) 
 - [我的配置](https://github.com/kktt007/archlinux/blob/master/快捷键.md) 
 - https://www.cnblogs.com/rain-blog/p/make-capslock-hjkl-as-arrows.html
+
 ```
 remove Lock = Caps_Lock
 remove Control = Control_L
@@ -229,7 +232,7 @@ keysym semicolon = semicolon colon BackSpace
 ```
 - [参考](https://github.com/acestronautical/dotfiles/blob/master/xmodmap/.xmodmap)
 - [参考](https://gist.github.com/tacone/97d9e8ffbbb840bb390d519e06d7e802)
-- 
+
 macos: Karabiner Elements
 参考
 https://zhuanlan.zhihu.com/p/111004160
