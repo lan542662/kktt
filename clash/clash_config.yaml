@@ -1,3 +1,4 @@
+mixed-port: 10809
 port: 10809
 socks-port: 10808
 #---------------------------------------------------#
@@ -419,6 +420,8 @@ rules:
   - RULE-SET,google,PROXY
   - RULE-SET,proxy,PROXY
   - RULE-SET,telegramcidr,PROXY
-  - GEOIP,,DIRECT
-  - GEOIP,CN,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,lancidr,DIRECT
+#  - GEOIP,,DIRECT
+#  - GEOIP,CN,DIRECT
   - MATCH,PROXY
