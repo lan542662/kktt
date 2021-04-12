@@ -46,9 +46,26 @@ https://developer.aliyun.com/article/72732
 https://github.com/wsdjeg/vim-galore-zh_cn
 https://dev.to/christalib/i-spent-3-years-configuring-n-vim-and-this-what-i-learnt-22on
 https://vimawesome.com/?q=tag:lsp
+https://blog.csdn.net/bc516125634/article/details/88858097
+https://developer.aliyun.com/article/353108
+https://gitee.com/xianyo/vim/blob/master/vimrc
+https://github.com/zhlinh/mivim/blob/master/.vimrc
+https://www.bbsmax.com/A/WpdKDM1rzV/
+https://gitee.com/liwenhui/vimleo#4.2
+https://github.com/wklken/k-vim/blob/master/vimrc.bundles
+https://xiaozhou.net/learn-the-command-line-vim-2018-08-08.html
+https://www.cnblogs.com/Leo_wl/p/3644230.html
+https://blog.csdn.net/Mason_Mao/article/details/80984726
+https://www.cnblogs.com/highway-9/p/5984285.html
+https://github.com/vimwiki/vimwiki
+https://www.cnblogs.com/xuyaowen/p/vim_usage.html
+https://www.pianshen.com/article/8721350495/
+https://gitconnected.com/learn/vim
+
 ```
 需要安装python,yarn
-set nocompatible
+"让Vim工作在不兼容模式下
+set nocp
 
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
@@ -105,11 +122,15 @@ Plug 'simnalamburt/vim-mundo'   " 显示修改历史
 Plug 'vim-syntastic/syntastic' " 语法
 "============= markdown ================
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
-Plugin 'godlygeek/tabular' "文本对齐, 使用 :Tabularize /= 可以等号对齐多行
-Plugin 'plasticboy/vim-markdown' " markdkown 增强
+Plug 'godlygeek/tabular' "文本对齐, 使用 :Tabularize /= 可以等号对齐多行
+Plug 'plasticboy/vim-markdown' " markdkown 增强
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown'} " markdown即时预览
 
+Plugin 'vim-scripts/taglist.vim'
 
 ActivateAddons vim-snippets ultisnips
+
+
 
 " Turn on syntax highlighting
 syntax on
@@ -233,6 +254,19 @@ nmap <Leader>p "+p
 nmap <Leader>P "+P
 vmap <Leader>p "+p
 vmap <Leader>P "+P
+
+" 依次遍历子窗口
+nnoremap nw <C-W><C-W>
+" 跳转至右方的窗口
+nnoremap <Leader>lw <C-W>l
+" 跳转至左方的窗口
+nnoremap <Leader>hw <C-W>h
+" 跳转至上方的子窗口
+nnoremap <Leader>kw <C-W>k
+" 跳转至下方的子窗口
+nnoremap <Leader>jw <C-W>j
+" 定义快捷键在结对符之间跳转
+nmap <Leader>M %
 
 " 使用 <Space><Space> 进入 Vim 编辑模式：
 nmap <Leader><Leader> V
