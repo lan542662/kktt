@@ -7,3 +7,6 @@
 `cmd` + 1 2 3 # ## ### 
 L 代表- 再按一次L切换为1.2.3 有序
 切换主题很重要，能瞬间变好看
+
+## goodreader
+![Goodreader](https://kktt007.top/cfg/Goodreader.PNG)
