@@ -7,4 +7,5 @@
 5. 可以添加refer https://cdn.console.aliyun.com/domain/detail/kktt007.top/access 
 6. 源站信息就是这个  	 kktt007.oss-cn-shanghai.aliyuncs.com
 7. 添加页面优化
-8. 
+8. 配置回源host:  选第一个 kktt007.top，跟随回源协议
+
