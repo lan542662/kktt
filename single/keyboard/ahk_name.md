@@ -64,8 +64,3 @@ You can use the following modifier symbols to define hotkeys:
 |   UP   | The word UP may follow the name of a hotkey to cause the hotkey to fire upon release of the key rather than when the key is pressed down. The following example [remaps](https://www.autohotkey.com/docs/misc/Remap.htm) the left Win to become the left Ctrl:`*LWin::Send {LControl down} *LWin Up::Send {LControl up} `"Up" can also be used with normal hotkeys as in this example: `^!r Up::MsgBox You pressed and released Ctrl+Alt+R`. It also works with [combination hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm#combo) (e.g. `F1 & e Up::`)Limitations: 1) "Up" does not work with [joystick buttons](https://www.autohotkey.com/docs/KeyList.htm); and 2) An "Up" hotkey without a normal/down counterpart hotkey will completely take over that key to prevent it from getting stuck down. One way to prevent this is to add a [tilde prefix](https://www.autohotkey.com/docs/Hotkeys.htm#Tilde) (e.g. `~LControl up::`)"Up" hotkeys and their key-down counterparts (if any) always use the keyboard hook.On a related note, a technique similar to the above is to make a hotkey into a prefix key. The advantage is that although the hotkey will fire upon release, it will do so only if you did not press any other key while it was held down. For example:`LControl & F1::return  *; Make left-control a prefix by using it in front of "&" at least once.* LControl::MsgBox You released LControl without having used it to modify any other key.` |
 
 
-
-[MACOS](https://www.key-shortcut.com/mac-osx/umschalt-tasten-mac)
-
-|     name     | keyboard symbol | alternative symbol |
-| :----------: | :-------------: | :----------------: |
