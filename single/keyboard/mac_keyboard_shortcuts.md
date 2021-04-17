@@ -24,3 +24,6 @@
 https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts
 
 https://support.apple.com/en-us/HT201236
+
+IPAD
+https://support.apple.com/en-us/HT211096
