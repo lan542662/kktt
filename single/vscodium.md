@@ -127,6 +127,12 @@ indent_size = 2
 windows:[AutoHotKey vim](https://github.com/JakubNer/autokey-autohotkey-vim-nav)
 [用capslock](https://github.com/Vonng/Capslock/blob/master/README_ZH.md)
 [这个用空格的脚本也有意思](https://github.com/qdzhang/ahk-tools)
+[这个也可参考](https://github.com/majorworld/Pet)
+https://www.appinn.com/pet-for-windows/
+https://sspai.com/post/57157#!
+
+[参考](https://sspai.com/post/57157)
+
 [当前这个脚本默认是最佳的按键]](https://github.com/kktt007/Capslock/blob/master/win/CapsLock.ahk)
 或者[配置用alt](https://www.aukocharlie.com/archives/vscode设置双快捷键)
 
