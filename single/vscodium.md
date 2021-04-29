@@ -1,4 +1,8 @@
 # vscodium and neovim
+1. editorconfig使用
+2. [keybinds参考](https://github.com/kktt007/archlinuxdata/raw/master/archlinux-backup/home/.config/Code/User/keybindings.json)
+3. 
+项目使用e
 
 ![vscode插件](https://kktt007.top/img/2021_03_30_033.jpg)
 
@@ -195,7 +199,7 @@ https://sspai.com/post/57157#!
   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
 },
 {
-  "key": "alt+l",
+  "key": "alt+j",
   "command": "selectNextSuggestion",
   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
 },
@@ -205,12 +209,66 @@ https://sspai.com/post/57157#!
   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
 },
 {
-  "key": "alt+h",
+  "key": "alt+k",
   "command": "selectPrevSuggestion",
   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
 },
 ]
 ```
+以下也可参考
+ctrl+[ instead of <esc>
+ctrl+m instead of <enter>
+参考https://gist.github.com/Danik/5808330
+```
+;;; # = Win
+;;; ^ = Ctrl
+;;; ! = Alt
+;;; + = Shift
+```
+	
+  锁定大写
+CaspLock + `          | {CapsLock}CapsLock Switcher as a Substituent	
+
+## vscode:
+
+智能提示:
+alt+j 下一个
+alt+k 上一个
+{
+  "key": "alt+j",
+  "command": "selectNextSuggestion",
+  "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+},
+{
+  "key": "alt+k",
+  "command": "selectPrevSuggestion",
+  "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+},
+
+## capslock.ahk:
+https://github.com/kktt007/Capslock/blob/master/win/CapsLock.ahk
+;;; # = Win
+;;; ^ = Ctrl
+;;; ! = Alt
+;;; + = Shift
+
+CapsLock & `;:: Send, {Enter}                                        ;|
+CapsLock & m:: Send, {Enter}                                         ;|
+CapsLock & [:: Send, {Esc}
+以下供参考
+;     Cursor keys           - J, K, L, I
+;     Enter                 - Space
+;     Home, PgDn, PgUp, End - U, O, Y, H
+;     Backspace and Del     - N, M
+;
+;     Insert                - B
+;     Select all            - A
+;     Cut, copy, paste      - S, D, F
+;     Close tab, window     - W, E
+;     Esc                   - R
+;     Next, previous tab    - Tab, Q
+;     Undo, redo            - , and .
+
 
 linux:
 - [xmodmap](https://tonsky.me/blog/cursor-keys/) 
