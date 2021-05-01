@@ -1,5 +1,5 @@
 - dropbox 配置文件，数据文件，导图等
 - box 书籍
 - google drive 图片，文本，markdkown文件备份(可用stackedit)
-- github 在线文字(stackedit)
+- github 在线文字(stackedit) 每天的还是分开来日期命名，0415等，因为数量太多影响图床流量
 - 语雀作为md，个人知识库
