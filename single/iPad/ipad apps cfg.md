@@ -10,3 +10,8 @@ L 代表- 再按一次L切换为1.2.3 有序
 
 ## goodreader
 ![Goodreader](https://kktt007.top/cfg/Goodreader.PNG)
+
+ipad app list
+![IMG_0069](https://kktt007.top/cfg/IMG_0069.PNG)
+![IMG_0067](https://kktt007.top/cfg/IMG_0067.PNG)
+![IMG_0068](https://kktt007.top/cfg/IMG_0068.PNG)
