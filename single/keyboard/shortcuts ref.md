@@ -93,6 +93,13 @@ g # 右击
 
 ## vscode:
 https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+
+https://code.visualstudio.com/docs/getstarted/keybindings
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+https://code.visualstudio.com/docs/editor/codebasics
+https://www.shortcutfoo.com/app/dojos/vscode-win/cheatsheet
+https://shortlib.netlify.app/apps/visual-studio-code
+https://shortcutkiller.com/keyboard-shortcuts/visual-studio-code-shortcut-keys-windows/
 https://www.visualstudiotips.co.uk/
 https://vscode-shortcuts.com/ 
 https://shortcuts.design/toolspage-visualstudiocode.html
