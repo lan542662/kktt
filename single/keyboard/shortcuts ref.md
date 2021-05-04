@@ -5,10 +5,10 @@ M 回车
 . 后删除词
 i home
 o end
-d 删除到行首
-f 删除到行末
-w 以单词移动光标
-b 以单词往回移动光标
+w 删除到行首
+d 删除到行末
+f 右跳词
+b 左跳词
 原则就是: 左手尽量用修饰符， 右手尽量用主键，右手高频用字母,比,;'.要好很多
 
 AHK:
@@ -30,14 +30,14 @@ CapsLock & n:: Send, ^{BS} # 向前删除单词
 
 CapsLock & m:: Send, {Enter} # 代替enter
 
-CapsLock & d:: Send, +{Home}{Del} # 删除到行首
+CapsLock & w:: Send, +{Home}{Del} # 删除到行首
 
 
 
 CapsLock & ,:: Send, {Del} # 向后删除一个字符
 CapsLock & .:: Send, ^{Del} # 向后删除单词
 
-CapsLock & f:: Send, +{End}{Del} # 删除到行尾
+CapsLock & d:: Send, +{End}{Del} # 删除到行尾
 
 ## 移动
 
@@ -49,9 +49,9 @@ hl左右
 
 jk下上
 
-w # 单词向后
+f # 单词左跳
 
-b # 单词向前
+b # 单词右跳
 
 i # home
 
