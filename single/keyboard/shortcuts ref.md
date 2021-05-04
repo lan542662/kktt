@@ -1,6 +1,8 @@
 参考
 [bash](https://ss64.com/bash/syntax-keyboard.html)
 
+[computerhope参考](https://www.computerhope.com/ushort.htm)
+
 [bash_shortcuts](https://kapeli.com/cheat_sheets/Bash_Shortcuts.docset/Contents/Resources/Documents/index)
 
 [gnu bash function-index](https://www.gnu.org/software/bash/manual/html_node/Function-Index.html)
