@@ -1,3 +1,10 @@
+参考
+[bash](https://ss64.com/bash/syntax-keyboard.html)
+
+[bash_shortcuts](https://kapeli.com/cheat_sheets/Bash_Shortcuts.docset/Contents/Resources/Documents/index)
+
+[gnu bash function-index](https://www.gnu.org/software/bash/manual/html_node/Function-Index.html)
+
 ; 前删除单字
 n 前删除词
 M 回车
