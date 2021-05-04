@@ -7,4 +7,5 @@
 [vscode](https://github.com/kktt007/kktt/raw/main/single/vscodium.md)
 
 [linux-xkeysnail](https://www.aloxaf.com/2019/11/xkeysnail_tutorial/)
+[修改部分配置](https://github.com/kktt007/xkeysnail/blob/master/example/config.py)
 https://github.com/mooz/xkeysnail
