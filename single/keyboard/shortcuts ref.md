@@ -4,15 +4,18 @@ ecs + - 一直大写
 
 ecslock # 单独代表esc
 
-CapsLock & `;:: Send, {Enter} # ;为enter键
+CapsLock & `;:: Send, {BS} # ;为backspace键
+
 
 CapsLock & [:: Send, {Esc} # [为esc
 
 CapsLock & ':: Send, = # ' 为=号
 
 ## 删除:
-CapsLock & m:: Send, {BS} # 代替backspace
+
 CapsLock & n:: Send, ^{BS} # 向前删除单词
+
+CapsLock & m:: Send, {Enter} # 代替enter
 
 CapsLock & d:: Send, +{Home}{Del} # 删除到行首
 
@@ -41,6 +44,7 @@ i # home
 
 alt i # 选中到开头
 
+ctrl + i 移动 等于ctrl+home 到文件开头
 
 
 o # end
