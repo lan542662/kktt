@@ -11,10 +11,7 @@ keysym u = u U Prior
 keysym i = i I Home
 keysym o = o O End 
 keysym p = p P Next
-keysym semicolon = semicolon colon Return
-
+keysysm m = m M Return
+keysym semicolon = semicolon colon BackSpace
 keysym comma = comma less Delete
-
-keysym period = period greater BackSpace
-
 keysym bracketleft = bracketleft braccetleft Escape
