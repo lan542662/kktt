@@ -10,8 +10,8 @@ n 前删除词
 M 回车
 , 后删除单字
 . 后删除词
-i home
-o end
+a home
+e end
 w 删除到行首
 d 删除到行末
 f 右跳词
@@ -42,6 +42,7 @@ CapsLock & w:: Send, +{Home}{Del} # 删除到行首
 
 
 CapsLock & ,:: Send, {Del} # 向后删除一个字符
+
 CapsLock & .:: Send, ^{Del} # 向后删除单词
 
 CapsLock & d:: Send, +{End}{Del} # 删除到行尾
