@@ -10,8 +10,8 @@ n 前删除词
 M 回车
 , 后删除单字
 . 后删除词
-a home
-e end
+i home
+o end
 w 删除到行首
 d 删除到行末
 f 右跳词
