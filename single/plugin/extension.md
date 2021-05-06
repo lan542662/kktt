@@ -15,6 +15,7 @@ GitHub Downloader	jplmabjbdhggnlhndkdfciacklbjcfel
 Bitwarden	nngceckbapebfimnlniiiahkandclblb
 cVim	ihlenndgcmojhcghmfjfneahoeklbjjh
 crxMouse Chrome™ 手势	jlgkpaicikihijadgifklkbpdajbkhjo
+graphitabs dcfclemgmkccmnpgnldhldjmflphkimp
 ![](https://kktt007.top/cfg/crxmouse06.jpg)
 ![](https://kktt007.top/cfg/crxmouse05.jpg)
 ![](https://kktt007.top/cfg/crxmouse04.jpg)
