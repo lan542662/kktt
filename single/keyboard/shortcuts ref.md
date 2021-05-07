@@ -92,23 +92,34 @@ g # 右击
 
 
 ## vscode:
-https://code.visualstudio.com/docs/getstarted/tips-and-tricks
 
 https://code.visualstudio.com/docs/getstarted/keybindings
+
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-https://code.visualstudio.com/docs/editor/codebasics
+
+https://www.randomshortcuts.com/vscode
+
 https://www.shortcutfoo.com/app/dojos/vscode-win/cheatsheet
+
 https://shortlib.netlify.app/apps/visual-studio-code
-https://shortcutkiller.com/keyboard-shortcuts/visual-studio-code-shortcut-keys-windows/
-https://www.visualstudiotips.co.uk/
+
 https://vscode-shortcuts.com/ 
+
+https://shortcutkiller.com/keyboard-shortcuts/visual-studio-code-shortcut-keys-windows/
+
+https://code.visualstudio.com/docs/editor/codebasics
+
+https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+
+https://www.visualstudiotips.co.uk/
+
 https://shortcuts.design/toolspage-visualstudiocode.html
 https://keycombiner.com/collections/vscode/winlinux/
 https://gist.github.com/nobitagit/649fd57e6d7871a2dd263251c51f7f3e
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
 https://www.jianshu.com/p/2ecd5bf0769b
 https://www.teilhabe40.de/fileadmin//user_upload/Dummy_PDFs/vs-code_cheat-sheet_windows.pdf
-https://www.randomshortcuts.com/vscode
+
 https://usethekeyboard.com/vs-code/
 https://www.makeuseof.com/tag/visual-studio-code-keyboard-shortcuts-cheat-sheet/
 {
