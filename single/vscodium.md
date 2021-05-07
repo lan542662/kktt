@@ -302,3 +302,36 @@ macos: Karabiner Elements
 参考
 https://zhuanlan.zhihu.com/p/111004160
 https://blog.csdn.net/techfield/article/details/84186402
+
+vscode插件: daf2d6cb4cb65e64cf8cb6923ac0#5beb
+Extensions Added:
+  better-align v1.1.7
+  better-comments v2.1.0
+  bracket-pair-colorizer v1.0.61
+  code-settings-sync v3.4.3
+  code-spell-checker v1.10.4
+  dark-plus-material v2.3.12
+  EditorConfig v0.16.4
+  eva-theme v1.1.4
+  git-graph v1.30.0
+  gitlens v11.3.0
+  indent-rainbow v7.5.0
+  markdown-all-in-one v3.4.0
+  markdown-extended v1.0.19
+  markdown-formatter v0.9.0
+  markdown-shortcuts v0.12.0
+  material-icon-theme v4.6.0
+  multi-command v1.5.0
+  path-autocomplete v1.17.1
+  path-intellisense v2.3.0  暂时不用
+  prettier-vscode v6.3.2
+  project-manager v12.0.1
+  ruby v0.28.0
+  sort-lines v1.9.0
+  tabnine-vscode v3.2.17
+  theme-dracula v2.22.3
+  todo-tree v0.0.212
+  vs-picgo v2.1.0
+  vscode-ruby v0.27.0
+  ruby solargraph
+  vim
