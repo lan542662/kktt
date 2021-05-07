@@ -335,3 +335,104 @@ Extensions Added:
   vscode-ruby v0.27.0
   ruby solargraph
   vim
+  
+  ---
+  
+## chrome插件 surfingkeys
+/ 查找
+d 下滚
+e 上滚
+E 左标签
+R 右标签 
+t 或者b 书签查找
+sg google搜索选中
+og 打开谷歌搜索栏
+yh 复制当前域名
+yy 复制当前地址
+x 关闭当前标签
+X 恢复刚关闭的标签
+on 打开新标签
+n 下一处
+N 上一处
+返回前一个标签页 B
+往后一个标签页 F
+
+
+
+vim:
+https://developer.aliyun.com/article/23883
+https://tomotoes.com/blog/grammar-of-vim-cultivation-cheats/
+https://github.com/justinmk/vim-sneak
+
+
+## vscode:
+https://code.visualstudio.com/docs/getstarted/userinterface
+IDE https://baijiahao.baidu.com/s?id=1660324855189956389&wfr=spider&for=pc
+https://juejin.cn/post/6844903826063884296
+
+学习
+https://www.thisfaner.com/p/vs-code-tips/
+https://www.thisfaner.com/p/vs-code-skills/
+
+
+
+一些最常用的快捷键 alt替换了shift
+https://www.yuque.com/jeason/box/ntbebr
+
+
+ctrl j # Toggle Panel 面板
+ctrl b # Toggle Sidebar 侧边栏
+ctrl , 
+ctrl k, z
+
+选中一个字符后，ctrl shift l 会在所有相同处编辑光标
+shift alt i 在所有选中行末尾添加光标
+
+alt uparrow 把当前行上移
+
+ctrl l Select current line选中当前行
+
+阅读源码用: 
+https://geek-docs.com/vscode/vscode-tutorials/vs-code-refactor.html
+https://www.axihe.com/tools/vscode/skill/vs-code-refactor.html
+https://g.yuque.com/ynzy/vscode/sls0gl#2GAht
+https://www.thisfaner.com/p/vs-code-skills/
+
+《代码整洁之道》《代码大全2》《重构：改善既有代码的设计》
+批量重命名 重构代码
+- 定义或者声明快速跳转
+- 快速搜索指定内容
+- todo
+- 同时修改本文件中所有匹配的
+- 列出当前文件中的所有函数
+
+
+[参考](https://www.php.cn/tool/vscode/439478.html)
+常用的快捷键：
+F12 跳转到符号定义（需要安装下面相关插件）
+Alt+← 跳回
+Command + “-”  返回上次位置
+Command + SHilft + o : 列出当前文件中的所有函数 
+Ctrl + Tab : 在最近打开的几个文件之间切换
+
+找到所有的引用（展示相关）:   Shift+F12
+
+同时修改本文件中所有匹配的:   Ctrl+F2
+
+跳转到下一个 Error 或 Warning:   当有多个错误时可以按 F8 逐个跳转
+
+移动到定义处:   F12
+
+查看定义处缩略图(只看一眼而不跳转过去):    Alt+F12
+
+?   列出当前可执行的动作
+
+!   显示 Errors或 Warnings，也可以 Ctrl+Shift+M
+
+:   跳转到行数，也可以 Ctrl+G 直接进入
+
+@    跳转到 symbol（搜索变量或者函数），也可以 Ctrl+Shift+O 直接进入
+
+@    根据分类跳转 symbol，查找属性或函数，也可以 Ctrl+Shift+O 后输入" : "进入
+
+#   根据名字查找 symbol，也可以 Ctrl+T
