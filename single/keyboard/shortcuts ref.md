@@ -93,23 +93,33 @@ g # 右击
 
 ## vscode:
 
+https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+Toggle Panel Ctrl+J
+
 https://code.visualstudio.com/docs/getstarted/keybindings
 
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
+https://shortcutkiller.com/keyboard-shortcuts/visual-studio-code-shortcut-keys-windows/
+
+https://shortlib.netlify.app/apps/visual-studio-code
+Toggle Sidebar Visibility ctrl + b
+
+https://www.software.com/src/top-vs-code-extensions-settings-shortcuts-and-more
+
 https://www.randomshortcuts.com/vscode
+
 
 https://www.shortcutfoo.com/app/dojos/vscode-win/cheatsheet
 
-https://shortlib.netlify.app/apps/visual-studio-code
+http://blog.jackiexiao.com/%E9%AB%98%E6%95%88%E5%B7%A5%E5%85%B7/vscode/
 
 https://vscode-shortcuts.com/ 
 
-https://shortcutkiller.com/keyboard-shortcuts/visual-studio-code-shortcut-keys-windows/
 
 https://code.visualstudio.com/docs/editor/codebasics
 
-https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+
 
 https://www.visualstudiotips.co.uk/
 
