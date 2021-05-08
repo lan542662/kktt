@@ -74,6 +74,15 @@ endif
 
 https://dev.to/moniquelive/haskell-lsp-bonus-for-vim-4nlj
 
+https://github.com/Tehnix/spaceneovim-layers/blob/master/layers/%2Btools/language-server/config.vim
+
+Plug 'prabirshrestha/vim-lsp'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/async.vim'
+
+http://smot93516.hatenablog.jp/entry/2020/12/01/123527
 ```ruby
     if executable('solargraph')
       " gem install solargraph
@@ -85,6 +94,37 @@ https://dev.to/moniquelive/haskell-lsp-bonus-for-vim-4nlj
             \ })
     endif
 ```
+
+``` python
+if executable('pyls')
+	" pip install 'python-language-server[all]'
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'pyls',
+        \ 'cmd': {server_info->['pyls']},
+        \ 'whitelist': ['python'],
+        \ })
+endif
+```
+
+```bash
+if executable('bash-language-server')
+  au User lsp_setup call lsp#register_server({
+        \ 'name': 'bash-language-server',
+        \ 'cmd': {server_info->[&shell, &shellcmdflag, 'bash-language-server start']},
+        \ 'whitelist': ['sh'],
+        \ })
+endif
+```
+
+
+" vim-lsp-settings won't detect hls automatically as of today (2020-10-26). Let's teach it:
+if (executable('haskell-language-server-wrapper'))
+  au User lsp_setup call lsp#register_server({
+      \ 'name': 'haskell-language-server-wrapper',
+      \ 'cmd': {server_info->['haskell-language-server-wrapper', '--lsp']},
+      \ 'whitelist': ['haskell'],
+      \ })
+endif
 
 * ## [Better Align](#1a) <a id="a1"></a> 
   + [marketplace](https://marketplace.visualstudio.com/items?itemName=wwm.better-align) 需要额外配置
