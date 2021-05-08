@@ -25,10 +25,12 @@ vscode似乎只有简单的插件来完成，vim插件到是可以, 百合说，
 |颜色主题|[Eva Theme],[Dark+ Material],[Dracula Official]||
 |补全|[Tabnine]||
 |按键|AutoHotKey|xmodmap|
-|函数定义|自带|leaderf或者tagbar需要配合nerdtree|
-|函数调用者||ctag配合cscops|
+|函数定义|自带|leaderf或者tagbar（依赖ctags）需要配合nerdtree|
+|函数调用者||ctags配合cscops(配合vim-gutentags)|
 
 ---
+代码跳转 代码提示 自动补全 语法高亮 格式化功能
+github查找插件: vim-plugins syntax-checker neovim-plugin
 
 ctags can be used to take you to the definition of a variable (e.g., a function, variable, or macro). cscope can be used to take you to the call site of a definition (e.g., all function calls, all variable uses, all macro uses).
 
@@ -36,6 +38,10 @@ ctags can be used to take you to the definition of a variable (e.g., a function,
 https://topsemic.com/2090.html
 
 http://www.cxyzjd.com/article/weixin_39782394/110511659
+https://gangzai.online/2018/09/27/software/%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84-Vim/
+
+http://www.waylon.one/Linux/vim-configuration/
+
 
 
 * ## [Better Align](#1a) <a id="a1"></a> 
