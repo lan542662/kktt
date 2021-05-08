@@ -48,6 +48,13 @@ VS Code 就提出了 “Language Server” （简称 LSP）这种先进的概念
 
 ## lsp
 
+vimrc: gists
+https://gitlab.com/my-vim-plugins/vim-lsp-mirror
+https://www.5axxw.com/wiki/content/dp0m4s
+https://www.pianshen.com/article/399691481/
+https://github.com/indraniel/dotfiles/blob/master/vimrc
+https://gist.github.com/yterajima/594a8199f4031589bbba6e482c996009
+
 https://www.kawabangga.com/posts/3745
 vim-lsp
 是一个与 LSP 交互的插件，类似于一个 Vim 的 SDK。
