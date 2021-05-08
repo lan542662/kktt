@@ -25,7 +25,18 @@ vscode似乎只有简单的插件来完成，vim插件到是可以, 百合说，
 |颜色主题|[Eva Theme],[Dark+ Material],[Dracula Official]||
 |补全|[Tabnine]||
 |按键|AutoHotKey|xmodmap|
+|函数定义|自带|leaderf或者tagbar需要配合nerdtree|
+|函数调用者||ctag配合cscops|
+
 ---
+
+ctags can be used to take you to the definition of a variable (e.g., a function, variable, or macro). cscope can be used to take you to the call site of a definition (e.g., all function calls, all variable uses, all macro uses).
+
+简而言之，它是 ctags 的加强版，ctags 只能让我们跳转到某个 tag 的定义之处，但是无法让我们知道这个 tag 还在哪里出现过，或者被哪个函数调用过，这时候就需要 cscope 来完成该功能了。
+https://topsemic.com/2090.html
+
+http://www.cxyzjd.com/article/weixin_39782394/110511659
+
 
 * ## [Better Align](#1a) <a id="a1"></a> 
   + [marketplace](https://marketplace.visualstudio.com/items?itemName=wwm.better-align) 需要额外配置
