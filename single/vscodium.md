@@ -42,7 +42,49 @@ https://gangzai.online/2018/09/27/software/%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%
 
 http://www.waylon.one/Linux/vim-configuration/
 
+关于补全
+https://www.cnblogs.com/cniwoq/p/13272746.html
+VS Code 就提出了 “Language Server” （简称 LSP）这种先进的概念。这是一种 Client-Server 架构，每个语言实现自己的 Language Server，每个编辑器去实现自己对接 Language Server 的前端。这样一个语言只需要实现一次，就可以支持所有的编辑器。上面那种情况，只要有3个语言的补全实现+3个编辑器自己的 Language Server 实现就可以了。
 
+## lsp
+
+https://www.kawabangga.com/posts/3745
+vim-lsp
+是一个与 LSP 交互的插件，类似于一个 Vim 的 SDK。
+
+
+1. 安装该语言的 LSP，这里有一个列表；
+2. 在 Vim 中注册该 LSP；
+
+以 Bash 为例，我们首先按照仓库的介绍，安装该语言的 LSP：
+
+1
+$ npm i -g bash-language-server
+然后在 .vimrc 中用以下配置注册：
+
+```bash
+if executable('bash-language-server')
+  au User lsp_setup call lsp#register_server({
+        \ 'name': 'bash-language-server',
+        \ 'cmd': {server_info->[&shell, &shellcmdflag, 'bash-language-server start']},
+        \ 'whitelist': ['sh'],
+        \ })
+endif
+```
+
+https://dev.to/moniquelive/haskell-lsp-bonus-for-vim-4nlj
+
+```ruby
+    if executable('solargraph')
+      " gem install solargraph
+      autocmd User lsp_setup call lsp#register_server({
+            \   'name': 'solargraph',
+            \   'cmd': {server_info->[&shell, &shellcmdflag, 'solargraph stdio']},
+            \   'initialization_options': {"diagnostics": "true"},
+            \   'whitelist': ['ruby'],
+            \ })
+    endif
+```
 
 * ## [Better Align](#1a) <a id="a1"></a> 
   + [marketplace](https://marketplace.visualstudio.com/items?itemName=wwm.better-align) 需要额外配置
