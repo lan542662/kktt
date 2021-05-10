@@ -133,6 +133,8 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/async.vim'
 
+" 对齐插件,我最喜欢的
+Plugin 'godlygeek/tabular'
 " Syntax Checking
 Plugin 'scrooloose/syntastic'
 
