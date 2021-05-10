@@ -343,3 +343,15 @@ map <leader>n :set number<CR>
 https://github.com/kktt007/archlinux/blob/cdf6a6799750e71dd01f528c44017fe5bd059ad6/vim/_vimrc
 https://github.com/kktt007/archlinux/blob/master/vim/nvim/init.vim
 https://github.com/kktt007/kktt/edit/main/single/vscodium.md
+
+
+https://www.kawabangga.com/posts/3745#comments
+
+Plug 'hrsh7th/vim-vsnip'
+Plug 'hrsh7th/vim-vsnip-integ'
+https://blog.capytan.net/entry/2020/04/12/my-vim-plugins/
+https://ggdg.tkan.dev/post/vim-settings-in-2020/
+https://www.cnblogs.com/bugs-killer/p/14685746.html
+https://gitee.com/dasky92/vim-config
+https://neovim.io/doc/user/lsp.html
+https://www.codenong.com/6cf051f709beccf43db4/
