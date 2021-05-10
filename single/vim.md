@@ -127,6 +127,11 @@ Plug 'tpope/vim-rails'
 Plug 'kana/vim-textobj-user'
 Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'vim-ruby/vim-ruby'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/async.vim'
 
 " Syntax Checking
 Plugin 'scrooloose/syntastic'
@@ -337,3 +342,4 @@ map <leader>n :set number<CR>
 综合
 https://github.com/kktt007/archlinux/blob/cdf6a6799750e71dd01f528c44017fe5bd059ad6/vim/_vimrc
 https://github.com/kktt007/archlinux/blob/master/vim/nvim/init.vim
+https://github.com/kktt007/kktt/edit/main/single/vscodium.md
