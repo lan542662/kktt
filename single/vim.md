@@ -119,6 +119,21 @@ Plug 'tpope/vim-fugitive'       " git 插件
 Plug 'jiazhoulvke/jianfan'      " 简繁转换 Tcn, Scn
 Plug 'simnalamburt/vim-mundo'   " 显示修改历史
 
+
+"" Ruby and Rails helpers
+" Rails helpers
+Plug 'tpope/vim-rails'
+" Ruby Blocks, requires textobj-user
+Plug 'kana/vim-textobj-user'
+Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'vim-ruby/vim-ruby'
+
+" Syntax Checking
+Plugin 'scrooloose/syntastic'
+
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
+
 Plug 'vim-syntastic/syntastic' " 语法
 "============= markdown ================
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
@@ -240,6 +255,39 @@ map <leader>l :set list!<CR> " Toggle tabs and EOL
 set t_Co=256
 set background=dark
 
+set magic " unbreak vim's regex implementation
+
+let mapleader = "\<space>"
+nnoremap \\ :noh<cr> " Clear higlighting
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR> " Trim trailing spaces
+nnoremap Y y$
+nnoremap cc :center<cr>
+inoremap <C-c> <ESC>
+" Ex mode is fucking dumb
+nnoremap Q <Nop>
+
+" Preferences for various file formats
+autocmd FileType c setlocal noet ts=8 sw=8 tw=80
+autocmd FileType h setlocal noet ts=8 sw=8 tw=80
+autocmd FileType cpp setlocal noet ts=8 sw=8 tw=80
+autocmd FileType s setlocal noet ts=8 sw=8
+autocmd FileType go setlocal noet ts=4 sw=4
+autocmd FileType hy setlocal filetype=lisp
+autocmd FileType sh setlocal noet ts=4 sw=4
+autocmd BufRead,BufNewFile *.js setlocal et ts=2 sw=2
+autocmd FileType html setlocal et ts=2 sw=2
+autocmd FileType htmldjango setlocal et ts=2 sw=2
+autocmd FileType ruby setlocal et ts=2 sw=2
+autocmd FileType scss setlocal et ts=2 sw=2
+autocmd FileType yaml setlocal et ts=2 sw=2
+autocmd FileType markdown setlocal tw=80 et ts=2 sw=2
+autocmd FileType text setlocal tw=80
+autocmd FileType meson setlocal noet ts=2 sw=2
+autocmd FileType bzl setlocal et ts=2 sw=2
+autocmd FileType typescript setlocal et ts=2 sw=2
+autocmd FileType python setlocal et ts=4 sw=4
+autocmd BufNewFile,BufRead *.ms set syntax=python ts=4 sw=4 noet
+
 "==============自定义按键=========================
 "使用 <Space>o 创建一个新文件:
 nnoremap <Leader>o :CtrlP<CR>
@@ -286,3 +334,6 @@ map <leader>r :call ToggleLineNumber()<CR>
 map <leader>t :NERDTreeToggle<CR>
 map <leader>n :set number<CR>
 ```
+综合
+https://github.com/kktt007/archlinux/blob/cdf6a6799750e71dd01f528c44017fe5bd059ad6/vim/_vimrc
+https://github.com/kktt007/archlinux/blob/master/vim/nvim/init.vim
