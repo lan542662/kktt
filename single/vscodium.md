@@ -234,6 +234,7 @@ indent_size = 2
 2、ALT+SHIFT+D 下载配置
 3、ALT+SHIFT+U 上传配置
 
+
 windows:[AutoHotKey vim](https://github.com/JakubNer/autokey-autohotkey-vim-nav)
 [用capslock](https://github.com/Vonng/Capslock/blob/master/README_ZH.md)
 [这个用空格的脚本也有意思](https://github.com/qdzhang/ahk-tools)
@@ -416,6 +417,7 @@ Extensions Added:
   bracket-pair-colorizer v1.0.61
   code-settings-sync v3.4.3
   code-spell-checker v1.10.4
+  codesnap v1.3.2
   dark-plus-material v2.3.12
   EditorConfig v0.16.4
   eva-theme v1.1.4
@@ -429,7 +431,6 @@ Extensions Added:
   material-icon-theme v4.6.0
   multi-command v1.5.0
   path-autocomplete v1.17.1
-  path-intellisense v2.3.0  暂时不用
   prettier-vscode v6.3.2
   project-manager v12.0.1
   ruby v0.28.0
@@ -438,9 +439,8 @@ Extensions Added:
   theme-dracula v2.22.3
   todo-tree v0.0.212
   vs-picgo v2.1.0
+  vscode-markdown-paste-image v0.12.3
   vscode-ruby v0.27.0
-  ruby solargraph
-  vim
   
   ---
   
