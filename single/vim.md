@@ -62,6 +62,8 @@ https://www.cnblogs.com/xuyaowen/p/vim_usage.html
 https://www.pianshen.com/article/8721350495/
 https://gitconnected.com/learn/vim
 
+参考插件 https://mendo.zone/fun/neovim-setup-haskell/
+
 ```
 需要安装python,yarn
 "让Vim工作在不兼容模式下
