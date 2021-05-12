@@ -1,0 +1,1 @@
+http://doc.novsu.ac.ru/oreilly/unix/sedawk/
