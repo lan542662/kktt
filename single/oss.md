@@ -8,4 +8,6 @@
 6. 源站信息就是这个  	 kktt007.oss-cn-shanghai.aliyuncs.com
 7. 添加页面优化
 8. 配置回源host:  选第一个 kktt007.top，跟随回源协议
-
+9. 查费用 https://usercenter2.aliyun.com/finance/expense-report/overview
+10. https://cdn.console.aliyun.com/domain/detail/kktt007.top/backSrc OSS私有Bucket回源 配置了据说oss走cnd流量
+11. https不要强制，默认就行
