@@ -17,6 +17,7 @@ cVim	ihlenndgcmojhcghmfjfneahoeklbjjh
 crxMouse Chrome™ 手势	jlgkpaicikihijadgifklkbpdajbkhjo
 graphitabs dcfclemgmkccmnpgnldhldjmflphkimp
 surfingkeys gfbliohnnapiefjpjlpjnehglfpaknnc
+[Google Hit Hider by Domain](GreasyFork) [greaskfork](https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist/)
 ![](https://kktt007.top/cfg/crxmouse06.jpg)
 ![](https://kktt007.top/cfg/crxmouse05.jpg)
 ![](https://kktt007.top/cfg/crxmouse04.jpg)
