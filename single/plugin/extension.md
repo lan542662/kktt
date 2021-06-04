@@ -31,6 +31,8 @@ vivaldi的gesture
 ![](https://kktt007.top/cfg/gesture.png)
 
 ## firefox
+gusturefy
+![](https://kktt007.top/cfg/gesturefy.jpg)
 
 - [foxproxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) 自用白名单需要私聊
   规则 \*.cn*
