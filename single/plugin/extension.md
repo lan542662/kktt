@@ -49,13 +49,14 @@ gusturefy
 
 - [Default Bookmark Folder](https://addons.mozilla.org/en-US/firefox/addon/default-bookmark-folder/)
 
-- [Session Boss](https://addons.mozilla.org/en-US/firefox/addon/session-boss/)
 
 - [Swift Selection Search 强烈推荐](https://addons.mozilla.org/en-US/firefox/addon/swift-selection-search/)
   + 搜索img:https://www.google.com/search?q={searchTerms}&tbm=isch
   + 当前网页搜索:https://www.google.com/search?q={searchTerms} site:{hostname}
 
 - [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+
+- [tab-session-manager](https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager)
 
 - [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
 
