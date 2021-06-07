@@ -20,3 +20,7 @@ http://www.shelldorado.com/freenode/BashFaq.html
 https://wiki.linuxquestions.org/wiki/Getting_help_from_IRC
 
 https://blog.sanctum.geek.nz/links/
+
+[Special-Parameters](https://bash.cyberciti.biz/guide/Category:Bash_Parameters)
+
+[Special-Parameters](https://www.gnu.org/software/bash/manual/bash.html#Special-Parameters)
