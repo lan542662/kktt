@@ -24,3 +24,11 @@ https://blog.sanctum.geek.nz/links/
 [Special-Parameters](https://bash.cyberciti.biz/guide/Category:Bash_Parameters)
 
 [Special-Parameters](https://www.gnu.org/software/bash/manual/bash.html#Special-Parameters)
+
+https://www.tutorialspoint.com/unix/unix-special-variables.htm
+
+https://wiki.bash-hackers.org/syntax/shellvars
+
+https://www.ibm.com/support/pages/special-parameters-shell-eg-ksh-bash-and-sh
+
+https://mywiki.wooledge.org/BashGuide/Parameters
