@@ -142,3 +142,9 @@ https://www.makeuseof.com/tag/visual-studio-code-keyboard-shortcuts-cheat-sheet/
   "command": "selectPrevSuggestion",
   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
 },
+
+
+vscode自带的快捷键
+
+insert line below
+`ctrl + enter`
