@@ -44,3 +44,23 @@ https://github.com/vinayhegde1990/devops-notes/blob/master/docs/source/Bash.rst
 https://mrinalininunna.blogspot.com/2020/09/lesson-plan.html
 
 https://hackr.io/tutorials/learn-linux-system-administration/page/5
+
+https://www.coursef.com/bash-tutorials
+
+https://sites.google.com/site/jangminpark/useful-links
+
+https://rentalsz.com/shell-script-assign-variable/
+
+https://knowledge.kitchen/Bash_shell_and_scripting
+
+https://github.com/singalhimanshu/shell-script-basics
+
+https://github.com/koalaman/shellcheck
+
+https://www.baeldung.com/linux/bash-special-variables
+
+https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays
+
+https://similargo.com/site/compciv.org
+
+http://www.compciv.org/bash-guide/
