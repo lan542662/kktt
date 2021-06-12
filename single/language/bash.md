@@ -38,3 +38,9 @@ https://riptutorial.com/bash/topic/4797/internal-variables
 https://www.shellscript.sh/functions.html
 
 https://tldp.org/LDP/abs/html/index.html
+
+https://github.com/vinayhegde1990/devops-notes/blob/master/docs/source/Bash.rst
+
+https://mrinalininunna.blogspot.com/2020/09/lesson-plan.html
+
+https://hackr.io/tutorials/learn-linux-system-administration/page/5
