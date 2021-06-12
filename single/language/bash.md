@@ -32,3 +32,9 @@ https://wiki.bash-hackers.org/syntax/shellvars
 https://www.ibm.com/support/pages/special-parameters-shell-eg-ksh-bash-and-sh
 
 https://mywiki.wooledge.org/BashGuide/Parameters
+
+https://riptutorial.com/bash/topic/4797/internal-variables
+
+https://www.shellscript.sh/functions.html
+
+https://tldp.org/LDP/abs/html/index.html
