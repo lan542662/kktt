@@ -16,3 +16,5 @@ https://photoshoptrainingchannel.com/photoshop-keyboard-shortcuts/
 
 中英
 https://zhuanlan.zhihu.com/p/62342412
+
+https://www.webfx.com/blog/web-design/photoshop-layer-styles-comprehensive-guide/
