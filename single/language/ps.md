@@ -13,3 +13,6 @@ https://www.wiley.com/en-al/Adobe+Photoshop+cs+in+10+Simple+Steps+or+Less-p-9780
 https://www.beart-presets.com/blog/best-books-for-learning-adobe-photoshop
 
 https://photoshoptrainingchannel.com/photoshop-keyboard-shortcuts/
+
+中英
+https://zhuanlan.zhihu.com/p/62342412
