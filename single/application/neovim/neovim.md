@@ -13,7 +13,7 @@ https://github.com/neovim/neovim/blob/master/runtime/doc/nvim.txt
     :call mkdir(stdpath('config'), 'p')
     :exe 'edit '.stdpath('config').'/init.vim'
 
-source ~/.vimrc 这句不用加，会错误，因为尾没有vimrc文件
+其余的不需要，因为不是从vim transition过来的
 
 参考
 https://github.com/gpakosz/.vim/blob/vanilla/.vimrc#L535
