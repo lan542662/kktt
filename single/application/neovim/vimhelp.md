@@ -1,3 +1,17 @@
+pdf
+
+https://vimhelp.org
+
+https://nathangrigg.com/vimhelp/vimhelp-ipad.pdf
+
+https://readthedocs.org/projects/vimguide/downloads/pdf/latest/
+
+https://doc.lagout.org/operating%20system%20/linux/
+
+https://learnvimscriptthehardway.stevelosh.com
+
+https://vim-jp.org/vimdoc-en/index.html
+
 # [scroll](https://vimhelp.org/scroll.txt.html)
 
 ```
