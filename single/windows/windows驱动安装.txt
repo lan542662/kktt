@@ -20,3 +20,40 @@ https://www.dell.com/support/home/zh-cn/product-support/servicetag/0-NVBKOGFPWUo
 https://wiki.edgeless.top/v2/guide/burn_manual.html
 https://www.ventoy.net/cn/plugin_wimboot.html
 https://wiki.edgeless.top/v2/guide/burn_manual.html
+
+
+win10
+https://www.ghxi.com/category/all/system/win10
+https://www.sysfans.com/win10
+https://www.ampc8.com/thread-19613-1-1.html
+https://www.pc521.net/
+http://www.wmiso.com/win10/
++
+---------------------------------------------------
+cpu: amd ryzen7 3700x 5800x
+
+主板: 技嘉B450 / 微芯B450
+3000
+
+
+
+显卡 七彩虹3060 2060 /RX2060/ RX6700XT 
+3000 再好的难压
+
+内存：海盗船复仇者16g 8g*2
+600
+
+
+散热: mc-2 240 cpu 一体式水冷 / 120水冷散热/冰库240水冷/冰神B360
+鑫谷pg600 电源600w
+
+1000
+硬盘：nvme m.2固态
+450
+
+
+机箱：先马破坏神x1 / 九州风神
+
+400
+
+预算9000
