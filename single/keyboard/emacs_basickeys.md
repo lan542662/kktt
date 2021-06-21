@@ -1,3 +1,15 @@
+http://www.cheat-sheets.org/saved-copy/readline-emacs-editing-mode-cheat-sheet.pdf
+
+https://man.cx/readline(3)
+
+https://wiki2.org/en/Emacs
+
+https://mywiki.wooledge.org/set-o-vi-emacs
+
+https://www.phcomp.co.uk/Tutorials/Unix-And-Linux/Bash-and-Korn-shell-history-reference.html
+
+https://www.ibm.com/docs/en/psfa/7.2.1?topic=administration-set-default-command-line-editing
+
 https://www.gnu.org/software/emacs/manual/html_node/efaq/Basic-keys.html
 
 https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html#SEC_Contents
