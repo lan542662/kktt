@@ -12,6 +12,8 @@ https://www.ibm.com/docs/en/psfa/7.2.1?topic=administration-set-default-command-
 
 https://www.gnu.org/software/emacs/manual/html_node/efaq/Basic-keys.html
 
+https://www.gnu.org/software/bash/manual/html_node/Readline-Interaction.html#Readline-Interaction
+
 https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html#SEC_Contents
 
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-Point.html
