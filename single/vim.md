@@ -64,6 +64,7 @@ https://gitconnected.com/learn/vim
 
 参考插件 https://mendo.zone/fun/neovim-setup-haskell/
 [vim插件](https://wiki.nikitavoloboev.xyz/text-editors/vim/vim-plugins)
+https://wiki.thingsandstuff.org/Vim
 
 ```
 需要安装python,yarn
