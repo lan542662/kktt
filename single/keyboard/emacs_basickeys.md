@@ -6,6 +6,14 @@ https://wiki2.org/en/Emacs
 
 https://mywiki.wooledge.org/set-o-vi-emacs
 
+https://bash.cyberciti.biz/bash-reference-manual/Readline-Init-File-Syntax.html
+
+https://wiki.archlinux.org/title/Category:GNU
+
+https://wiki.archlinux.org/title/Category:Command-line
+
+https://mywiki.wooledge.org/CategoryShell
+
 https://www.phcomp.co.uk/Tutorials/Unix-And-Linux/Bash-and-Korn-shell-history-reference.html
 
 https://www.ibm.com/docs/en/psfa/7.2.1?topic=administration-set-default-command-line-editing
