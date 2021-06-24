@@ -18,6 +18,7 @@ Just make sure not to put any line in your vimrc that you don’t understand.
 
 开始配置
 https://github.com/joshukraine/linux-dotfiles/blob/master/vimrc
+https://github.com/jonhoo/configs/blob/master/editor/.config/nvim/init.vim
 https://github.com/amix/vimrc
 https://github.com/siduck76/neovim-dots
 https://github.com/theniceboy/nvim/blob/master/README_cn.md
