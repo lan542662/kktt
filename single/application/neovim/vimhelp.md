@@ -147,3 +147,37 @@ ge  Backward to the end of word
 
 ## Text object motions 文本块移动
 
+  dl  delete character
+diw delete inner word
+dd delete one line
+dis delete inner sentence
+dib deleter inner block()
+dip delete inner paragraph
+diB delete inner {}block
+gdn delete the next search pattern match 
+
+
+移动命令
+'或者`
+'( 移动到当前句子开头
+
+') 移动到当前句子末尾
+
+'{}段落
+
+'[] 之前复制改变的地方
+
+'.上次改变的地方
+
+'"上次退出的地方
+
+'' m'标记的地方
+`` m`标记的地方
+
+'a ma做标记的地方
+
+' 标记不能被删除
+
+:makrs 列出标记
+
+:delm {makrs} 删除标记aA b p-z ^ . [] \"(这个需要反斜杠)
