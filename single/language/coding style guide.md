@@ -49,6 +49,8 @@ https://eslint.org/docs/rules/multiline-comment-style
 
 ## js
 
+https://javascript.info/coding-style
+
 https://github.com/airbnb/javascript
 
 https://contribute.jquery.org/style-guide/js/#comments
