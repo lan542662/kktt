@@ -181,3 +181,72 @@ gdn delete the next search pattern match
 :makrs 列出标记
 
 :delm {makrs} 删除标记aA b p-z ^ . [] \"(这个需要反斜杠)
+
+ ---
+  
+  # 粘贴
+
+p 粘贴在当前光标后
+P 粘贴在当前光标前
+
+gp 光标放在粘贴后的内容的后面以后
+
+[] 教程， 用,或;隔开
+        .               the current line                          :.
+        $               the last line in the file                 :$
+        %               equal to 1,$ (the entire file)
+
+Vim uses the contents of the unnamed register for any put command (p or P)
+which does not specify a register.、
+所以不指定"register，vim默认实用空register""或者是"0(最对最近一次复制)
+
+When the clipboard is not available or not
+working, the unnamed register is used instead.
+
+When the "unnamed" string is included in the 'clipboard' option, the unnamed
+register is the same.
+这时候就不需要再添加"* 直接p即可
+
+ "*, "+ and "~ 生效当clipboard启用的时候，未启用clipboard的时候启用的是unnamed register
+
+"% 文件名
+
+": 最近输出的命令 @:会直接在命令说输入上次的命令
+
+"/ 最近一次search pattern的内容
+
+:1,3 m 5 指把1~3行移动到第5行，3到5的位置
+
+:[range]co[py] {address}
+:1,3 co 5 指把1~3复制到5下面的位置，1从6开始，以此类推
+
+# uodo
+
+u 撤销
+
+ctrl-r 取消撤销
+
+# visual模式
+
+https://vimhelp.org/visual.txt.html#Visual
+
+4. Operating on the Visual area    
+
+
+CTRL-C 类似Esc
+
+Visual mode is a flexible and easy way to select a piece of text for an
+operator.  It is the only way to select a block of text.
+
+J Join [count] lines
+
+{Visual}J               Join the highlighted lines,
+
+
+v_X 或v_D 删除这一行
+
+In Visual block mode
+{Visual}["x]D 从高亮的地方删除到行尾，也就是保留高亮前的字符
+
+When using CTRL-V operates on the block only.
+
