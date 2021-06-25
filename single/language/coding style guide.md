@@ -19,7 +19,11 @@ https://readthedocs.org/projects/codingart/downloads/pdf/latest/
 
 https://github.com/charlie-wong/coding-style
 
+https://google.github.io/styleguide/shellguide.html#s4-comments
+
 ## ruby
+
+- # Use one space between the leading # character of the comment and the text of the comment.
 
 https://github.com/airbnb/ruby
 
@@ -30,6 +34,10 @@ https://github.com/rubocop/ruby-style-guide#comments
 https://ruby-style-guide.shopify.dev/
 
 https://www.w3resource.com/ruby/ruby-style-guide.php#commenting
+
+https://rubystyle.guide/#comments
+
+https://github.com/JuanitoFatas/ruby-style-guide#comments
 
 ## markdown
 
