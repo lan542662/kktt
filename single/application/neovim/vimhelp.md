@@ -95,6 +95,7 @@ CTRL-V  列模式
 h或backspace  左
 
 l或space  右
+```
 
 ```
 k或CTRL-P 上移
