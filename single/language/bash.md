@@ -82,6 +82,32 @@ http://www.compciv.org/bash-guide/
 
 ---
 
+exercise
+
+https://landoflinux.com/linux_bash_scripting_tutorial.html
+
+https://www.shell-tips.com/bash/
+
+http://www.macs.hw.ac.uk/~hwloidl/Courses/LinuxIntro/t1.html
+
+https://devqa.io/tag/bash/
+
+https://guide.bash.academy/
+
+https://tiswww.case.edu/php/chet/
+
+https://ryanstutorials.net/bash-scripting-tutorial/
+
+https://www.kau.edu.sa/files/830/files/60761_linux.pdf
+
+https://shellmagic.xyz/
+
+https://linuxconfig.org/how-to-use-arrays-in-bash-script
+
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+
+---
+
 https://readthedocs.org/projects/codingart/downloads/pdf/latest/
 https://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
 https://github.com/google/styleguide/blob/gh-pages/shellguide.md
