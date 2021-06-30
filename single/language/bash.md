@@ -1,10 +1,14 @@
 A-Z Index of the Linux BASH command line
 
+https://research.fit.edu/media/site-specific/researchfitedu/hep/heplaba/documents/conferences-and-workshops/national-amp-international/BashScripting_Butalla.pdf
+
+https://www.tutorialspoint.com/unix/shell_scripting.htm
+
+https://tldp.org/LDP/abs/html/index.html
+
 https://riptutorial.com/bash/topic/4797/internal-variables
 
 https://www.shellscript.sh/functions.html
-
-https://tldp.org/LDP/abs/html/index.html
 
 https://mywiki.wooledge.org/FullBashGuide
 
