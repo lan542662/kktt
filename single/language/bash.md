@@ -2,6 +2,12 @@ A-Z Index of the Linux BASH command line
 
 https://research.fit.edu/media/site-specific/researchfitedu/hep/heplaba/documents/conferences-and-workshops/national-amp-international/BashScripting_Butalla.pdf
 
+http://www.softpanorama.org/Scripting/shells.shtml
+
+https://www.cyberciti.biz/faq/bash-for-loop/
+
+https://devmanual.gentoo.org/tools-reference/bash/index.html
+
 https://www.tutorialspoint.com/unix/shell_scripting.htm
 
 https://tldp.org/LDP/abs/html/index.html
