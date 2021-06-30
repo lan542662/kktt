@@ -1,4 +1,13 @@
 A-Z Index of the Linux BASH command line
+
+https://riptutorial.com/bash/topic/4797/internal-variables
+
+https://www.shellscript.sh/functions.html
+
+https://tldp.org/LDP/abs/html/index.html
+
+https://mywiki.wooledge.org/FullBashGuide
+
 https://www.ucartz.com/clients/index.php?rp=/knowledgebase/98/An-A-Z-Index-of-the-Linux-BASH-command-line.html
 
 https://www.logicweb.com/kb/
@@ -33,11 +42,6 @@ https://www.ibm.com/support/pages/special-parameters-shell-eg-ksh-bash-and-sh
 
 https://mywiki.wooledge.org/BashGuide/Parameters
 
-https://riptutorial.com/bash/topic/4797/internal-variables
-
-https://www.shellscript.sh/functions.html
-
-https://tldp.org/LDP/abs/html/index.html
 
 https://github.com/vinayhegde1990/devops-notes/blob/master/docs/source/Bash.rst
 
