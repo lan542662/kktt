@@ -12,6 +12,8 @@ https://www.tutorialspoint.com/unix/shell_scripting.htm
 
 https://tldp.org/LDP/abs/html/index.html
 
+https://sodocumentation.net/bash
+
 https://riptutorial.com/bash/topic/4797/internal-variables
 
 https://www.shellscript.sh/functions.html
