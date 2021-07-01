@@ -288,3 +288,33 @@ F12 跳转到符号定义（需要安装下面相关插件）
 Command + “-”  返回上次位置
 Command + SHilft + o : 列出当前文件中的所有函数 
 Ctrl + Tab : 在最近打开的几个文件之间切换
+
+
+## 0701
+[] test conditions
+if [condition] && [condition]; then
+
+{range}
+
+((c-style syntac))
+
+$0 name of the script
+
+$@ number of parameters
+
+$# number of argument
+
+$? status of last command
+
+argument abbreviated as arg
+
+Function parameters are the names listed in the function's definition.
+Function arguments are the real values passed to the function.
+
+;;
+https://tldp.org/LDP/abs/html/special-chars.html
+
+# Array in Bash
+ array=(1 2 3 4)
+
+array=('first element' 'second element' 'third element')
