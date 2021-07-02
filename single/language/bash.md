@@ -318,3 +318,53 @@ https://tldp.org/LDP/abs/html/special-chars.html
  array=(1 2 3 4)
 
 array=('first element' 'second element' 'third element')
+
+
+## 0702
+The correct command separates all arguments with whitespaces
+[ -f file ]
+
+[ -f "my file" ]
+
+https://mywiki.wooledge.org/BashFAQ/031
+
+
+[[ 比[有自动纠错功能，var不需要quote也可以 ，不需要转义符
+
+The header is called an interpreter directive (it is also called a hashbang or shebang). 
+The #! must be at the very start of the file, with no spaces or blank lines before it.
+
+https://mywiki.wooledge.org/FullBashGuide#Commands_and_Arguments
+type -a bash
+
+https://mywiki.wooledge.org/FullBashGuide#Special%20Characters
+
+put double quotes around every parameter expansion!
+
+# A sequence of more blank characters is treated as a single blank 多个空格只当成一个
+$ echo Hello                little                  world
+Hello little world
+
+js
+https://kknews.cc/code/43r6q6q.html
+
+2、一定要重视基础
+
+首先建立第一条技能线：就是前端由html，css，js组成;然后将其细化为第二条线，html是由html4和html5组成;第三条线，css由css2和css3组成;第四条线，js由es5和es6构成。
+
+接下来是框架方面的延伸：css方向有less，html方向有bootstrap，js方向有jquery库。
+
+再往下延伸一层：html、css方向，有前端构建工具;js除了jq库之外，还有更全面的前端框架，react、angular、vue。
+
+再往下细化：react是一个view层方案，为了让它能够全面解决前端需求，需要Redux、react-router等作为补充。
+
+再往下：就需要打包发布工具，Webpack。。。
+
+这些都是一个合格的web前端工程师应该具备的能力。
+
+
+
+原文網址：https://kknews.cc/code/o4zovkm.html
+
+正则
+https://kknews.cc/code/94bj4zb.html
