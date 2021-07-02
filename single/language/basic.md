@@ -27,3 +27,6 @@ https://apprize.best/linux/unix/21.html
 https://www.cs.ait.ac.th/~on/O/oreilly/unix/sedawk/index/idx_0.htm
 https://eriqande.github.io/eca-bioinf-handbook/sed-awk-and-regular-expressions.html
 ftp://ftp.iingen.unam.mx/Documentacion/Shell-Bash/OReilly%20-%20Sed%20&%20Awk%202nd%20Edition.pdf#page20
+
+## book
+https://itsubuntu.com/best-free-unix-ebooks-linux-ebooks/
