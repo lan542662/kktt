@@ -1,5 +1,28 @@
 A-Z Index of the Linux BASH command line
 
+$@
+
+https://sodocumentation.net/bash/topic/4797/internal-variables
+
+https://linuxize.com/post/bash-functions/
+
+https://tldp.org/LDP/abs/html/internalvariables.html
+
+http://osr507doc.xinuos.com/en/OSUserG/_Passing_to_shell_script.html
+
+https://www.ibm.com/docs/en/zos/2.1.0?topic=descriptions-sh-invoke-shell
+
+https://www.grymoire.com/Unix/Sh.html
+
+https://coderwall.com/p/85jnpq/bash-built-in-variables
+
+https://sap1ens.com/blog/2017/07/01/bash-scripting-best-practices/
+
+https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html
+
+https://mywiki.wooledge.org/IFS
+
+
 https://research.fit.edu/media/site-specific/researchfitedu/hep/heplaba/documents/conferences-and-workshops/national-amp-international/BashScripting_Butalla.pdf
 
 http://www.softpanorama.org/Scripting/shells.shtml
