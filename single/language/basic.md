@@ -32,3 +32,20 @@ ftp://ftp.iingen.unam.mx/Documentacion/Shell-Bash/OReilly%20-%20Sed%20&%20Awk%20
 
 ## book
 https://itsubuntu.com/best-free-unix-ebooks-linux-ebooks/
+
+---
+- base
+
+http://www.softpanorama.org/Tools/index.shtml
+
+https://tldp.org/LDP/abs/html/varassignment.html
+
+https://tldp.org/LDP/abs/html/declareref.html
+
+https://tldp.org/LDP/abs/html/internal.html#BUILTINREF
+
+https://tldp.org/LDP/abs/html/internal.html
+
+https://tldp.org/LDP/abs/html/part4.html
+
+https://www.systutorials.com/
