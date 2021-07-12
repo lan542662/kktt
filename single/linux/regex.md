@@ -23,3 +23,5 @@ https://www.cyberciti.biz/faq/grep-regular-expressions/
 http://vimregex.com/
 
 http://math.hws.edu/eck/cs229/f15/regular_expressions.html
+
+https://linuxtechlab.com/bash-scripting-use-regex-intermediate/
