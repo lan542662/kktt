@@ -6,6 +6,8 @@ https://pubs.opengroup.org/onlinepubs/9699919799/idx/shell.html
 
 https://www.freebsd.org/cgi/man.cgi
 
+https://linux.101hacks.com/toc/
+
 https://www.unix.com/man-page/freebsd/1/df/
 
 https://www.manpagez.com/man/1/df/
