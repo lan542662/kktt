@@ -1,7 +1,7 @@
 # arch-chroot /mnt
 
 ## 必备
-networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch
+networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion
 
 sudo
 
@@ -11,7 +11,7 @@ pacman -S dosfstools grub efibootmgr os-prober
 
 intel-ucode
 
-xorg-server xorg-xrandr
+xorg-server xorg-server-common xorg-xrandr
 
 qt kf5 kf5-aids plasma sddm kde-system kde-utilities kde-graphics kdeconnect packagekit-qt5 
 sudo systemctl enable sddm.service 
