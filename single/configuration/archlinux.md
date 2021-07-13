@@ -13,7 +13,7 @@ intel-ucode
 
 xorg-server xorg-xrandr
 
-qt kf5 kf5-aids plasma sddm kde-system kde-utilities kde-graphics kdeconnect
+qt kf5 kf5-aids plasma sddm kde-system kde-utilities kde-graphics kdeconnect packagekit-qt5 
 sudo systemctl enable sddm.service 
 sudo systemctl enable NetworkManager.service //MMMMMMMMMM
 
