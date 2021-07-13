@@ -33,6 +33,8 @@ systemctl enable optimus-manager.service
 
 ------------------------
 ## 配置
+nvidia nvidia-utils libva-vdpau-driver libva-utils libva-intel-driver
+
 ttf-joypixels wqy-microhei
 (<string>文泉驿等宽微米黑</string>)
 
