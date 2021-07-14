@@ -6,6 +6,8 @@ https://github.com/XxAcielxX/arch-plasma-install
 
 [脚本](https://github.com/krushndayshmookh/krushn-arch)
 
+[mirror](https://archlinux.org/mirrorlist/?country=CN&protocol=http&protocol=https&ip_version=4#china)
+
 ## 必备
 networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion
 
