@@ -9,8 +9,9 @@ https://github.com/XxAcielxX/arch-plasma-install
 [mirror](https://archlinux.org/mirrorlist/?country=CN&protocol=http&protocol=https&ip_version=4#china)
 
 reflector
-reflector --country China --age 12 --protocol https --fast --sort rate --save /etc/pacman.d/mirrorlist
-reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
+
+reflector --country China --age 12 --fastest 10 --sort rate --save /etc/pacman.d/mirrorlist
+reflector --fastest 20 --sort rate --save /etc/pacman.d/mirrorlist
 
 ## 必备
 networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion
@@ -77,7 +78,7 @@ visual-studio-code-bin
 
 appimagelauncher(appimagelauncher用来启动appimage程序,比如picgo,启动后可直接menu中找到)
 
-fcitx-im fcitx-rime kcm-fcitx fcitx-table-extra
+fcitx fcitx-im fcitx-rime kcm-fcitx fcitx-table-extra
 
 ```
 sudo echo -e "export GTK_IM_MODULE=fcitx\nexport QT_IM_MODULE=fcitx\nexport XMODIFIERS=@im=fcitx\nexport LANG=en_US.UTF-8\nexport LANGUAGE=en_US:en_GB:en\nexport LC_CTYPE=en_US.UTF-8">>~/.xprofile
@@ -97,6 +98,8 @@ icon: papirus-icon-theme
 theme: materia-kde kvantum-theme-materia
 
 kvantum-qt5(运行kvantummanager选择meteria's theme)
+
+yay:
 
 plasma5-applets-window-appmenu
 
@@ -120,8 +123,9 @@ https://bugreports.qt.io/browse/QTBUG-53022
 
 https://wiki.archlinux.org/title/Xrandr
 
-cvt -r 1920 1080 查看信息
+查看信息
 cvt -r 2560 1440
+
 新建
 /etc/X11/xorg.conf.d/10-monitor.conf
 
@@ -129,13 +133,13 @@ cvt -r 2560 1440
 
 ```
 Section "Monitor"
-    Identifier "HDMI-1"
-    Modeline "1280x1024_60.00"  109.00  1280 1368 1496 1712  1024 1027 1034 1063 -hsync +vsync
-    Option "PreferredMode" "1280x1024_60.00"
+    Identifier "HDMI-0"
+    Modeline "2560x1440R"  241.50  2560 2608 2640 2720  1440 1443 1448 1481 +hsync -vsync
+    Option "PreferredMode" "2560x1440R"
    
     Identifier "eDP-1-1" (此项可不设)
-    Modeline "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync    
-    Option "PreferredMode" "1920x1080_60.00"
+    Modeline "1920x1080R"  138.50  1920 1968 2000 2080  1080 1083 1088 1111 +hsync -vsync  
+    Option "PreferredMode" "1920x1080R"
 EndSection
 
 ```
