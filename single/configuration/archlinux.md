@@ -13,6 +13,14 @@ reflector
 reflector --country China --age 12 --fastest 10 --sort rate --save /etc/pacman.d/mirrorlist
 reflector --fastest 20 --sort rate --save /etc/pacman.d/mirrorlist
 
+Server = https://repo.huaweicloud.com/archlinux/$repo/os/$arch
+Server = http://mirrors.aliyun.com/archlinux/$repo/os/$arch
+Server = https://opentuna.cn/archlinuxcn/$repo/os/$arch
+
+[archlinuxcn]
+Server = https://repo.huaweicloud.com/archlinuxcn/$arch
+Server = http://mirrors.aliyun.com/archlinuxcn/$arch
+Server = https://opentuna.cn/archlinuxcn/$arch
 ## 必备
 networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion
 
