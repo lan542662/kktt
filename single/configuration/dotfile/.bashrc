@@ -8,7 +8,11 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+alias h = 'history'
 alias ai='sudo pacman -S'
+alias aiy='sudo pacman -Sy'
+alias aiyu='sudo pacman -Syu'
+alias aiyy='sudo pacman -Syy'
 
 alias home='cd ~'
 
@@ -32,3 +36,5 @@ alias mx='chmod a+x'
 alias 000='chmod 000'
 alias 644='chmod 644'
 alias 755='chmod 755'
+
+bashs = "exec $SHELL"
