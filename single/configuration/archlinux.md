@@ -22,7 +22,7 @@ Server = https://repo.huaweicloud.com/archlinuxcn/$arch
 Server = http://mirrors.aliyun.com/archlinuxcn/$arch
 Server = https://opentuna.cn/archlinuxcn/$arch
 ## 必备
-networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion
+networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion rxvt-unicode
 
 sudo
 
