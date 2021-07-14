@@ -4,6 +4,8 @@
 参考
 https://github.com/XxAcielxX/arch-plasma-install
 
+[脚本](https://github.com/krushndayshmookh/krushn-arch)
+
 ## 必备
 networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion
 
