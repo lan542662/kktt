@@ -8,6 +8,10 @@ https://github.com/XxAcielxX/arch-plasma-install
 
 [mirror](https://archlinux.org/mirrorlist/?country=CN&protocol=http&protocol=https&ip_version=4#china)
 
+reflector
+reflector --country China --age 12 --protocol https --fast --sort rate --save /etc/pacman.d/mirrorlist
+reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
+
 ## 必备
 networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion
 
