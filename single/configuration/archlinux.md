@@ -15,7 +15,7 @@ pacman -S dosfstools grub efibootmgr os-prober
 
 intel-ucode
 
-xorg-server xorg-server-common xorg-xrandr
+xorg-server xorg-server-common xorg-xrandr arandr
 
 qt kf5 kf5-aids plasma sddm kde-system kde-utilities kde-graphics kdeconnect packagekit-qt5 
 sudo systemctl enable sddm.service 
@@ -82,4 +82,55 @@ perl-xml-parser bin86 asciidoc b43-fwcutter cdrtools mercurial fastjar intltool 
 
 美化
 
-kvantum-qt5 materia-kde kvantum-theme-materia papirus-icon-theme
+icon: papirus-icon-theme
+
+theme: materia-kde kvantum-theme-materia
+
+kvantum-qt5(运行kvantummanager选择meteria's theme)
+
+plasma5-applets-window-appmenu
+
+## 配置缩放
+
+系统设置→显示和监控→显示配置→缩放显示 150% = 96 +144*50%
+系统设置→字体 144
+
+- Smaller	100%	96
+- Medium	125%	120
+- Larger	150%	144
+- Extra Large	200%	192
+
+### 有kde就不需要设置以下
+  - export QT_AUTO_SCREEN_SCALE_FACTOR=0
+  - exportQT_SCALE_FACTOR=1.5 
+
+(https://wiki.archlinux.org/title/HiDPI)
+https://bugreports.qt.io/browse/QTBUG-53022
+
+
+https://wiki.archlinux.org/title/Xrandr
+
+cvt -r 1920 1080 查看信息
+cvt -r 2560 1440
+新建
+/etc/X11/xorg.conf.d/10-monitor.conf
+
+只要monitor就好
+
+```
+Section "Monitor"
+    Identifier "HDMI-1"
+    Modeline "1280x1024_60.00"  109.00  1280 1368 1496 1712  1024 1027 1034 1063 -hsync +vsync
+    Option "PreferredMode" "1280x1024_60.00"
+   
+    Identifier "eDP-1-1" (此项可不设)
+    Modeline "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync    
+    Option "PreferredMode" "1920x1080_60.00"
+EndSection
+
+```
+
+临时设置，仅参考
+xrandr --output HDMI-0 --auto --primary //将外接显示器设置为自动达到最优分辨率
+xrandr --output eDP1 --scale 1.5x1.5
+xrandr --output HDMI-1 --off --output eDP1-1 --auto 关闭hdmi,启用edpi
