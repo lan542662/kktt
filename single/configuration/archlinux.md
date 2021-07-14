@@ -1,5 +1,9 @@
 # arch-chroot /mnt
 
+
+参考
+https://github.com/XxAcielxX/arch-plasma-install
+
 ## 必备
 networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion
 
