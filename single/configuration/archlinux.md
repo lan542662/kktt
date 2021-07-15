@@ -1,5 +1,18 @@
-# arch-chroot /mnt
+# 分区 挂载分区有顺序，先是/然后是boot,然后是home
+1m =2048sector
+1byte = 8 bit(位)
+1kb = 1024 byte=2 sector
+1 sector = 512 byte
 
+512m = 1048576 sector
+/dev/sda1 efi system          512m  1048576   sector  boot
+/dev/sda2 microsoft reserved  128m  262144    sector  
+
+/dev/sda3 linux swap          16g   33554432  scetor        （相当于虚拟内存）
+/dev/sda4 linux filesystem    150g  314572800 sector  /     （相当于c盘）
+/dev/sda5 linux filesystem    余下的           sector  home  （相当于D盘 存储数据）
+
+# arch-chroot /mnt
 
 参考
 https://github.com/XxAcielxX/arch-plasma-install
