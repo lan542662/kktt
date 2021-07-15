@@ -5,16 +5,21 @@
 1 sector = 512 byte
 
 512m = 1048576 sector
+
 /dev/sda1 efi system          512m  1048576   sector  boot
+
 /dev/sda2 microsoft reserved  128m  262144    sector  
 
 /dev/sda3 linux swap          16g   33554432  scetor        （相当于虚拟内存）
+
 /dev/sda4 linux filesystem    150g  314572800 sector  /     （相当于c盘）
+
 /dev/sda5 linux filesystem    余下的           sector  home  （相当于D盘 存储数据）
 
 # arch-chroot /mnt
 
 参考
+
 https://github.com/XxAcielxX/arch-plasma-install
 
 [脚本](https://github.com/krushndayshmookh/krushn-arch)
@@ -24,17 +29,25 @@ https://github.com/XxAcielxX/arch-plasma-install
 reflector
 
 reflector --country China --age 12 --fastest 10 --sort rate --save /etc/pacman.d/mirrorlist
+
 reflector --fastest 20 --sort rate --save /etc/pacman.d/mirrorlist
 
 Server = https://repo.huaweicloud.com/archlinux/$repo/os/$arch
+
 Server = http://mirrors.aliyun.com/archlinux/$repo/os/$arch
+
 Server = https://opentuna.cn/archlinuxcn/$repo/os/$arch
 
 [archlinuxcn]
+
 Server = https://repo.huaweicloud.com/archlinuxcn/$arch
+
 Server = http://mirrors.aliyun.com/archlinuxcn/$arch
+
 Server = https://opentuna.cn/archlinuxcn/$arch
+
 ## 必备
+
 networkmanager dosfstools ntfs-3g git wget curl zsh bbswitch bash-completion rxvt-unicode
 
 sudo
@@ -49,9 +62,9 @@ xorg-server xorg-server-common xorg-xrandr arandr
 
 qt kf5 kf5-aids plasma sddm kde-system kde-utilities kde-graphics kdeconnect packagekit-qt5
 
-sudo systemctl enable sddm.service 
+- sudo systemctl enable sddm.service 
 
-sudo systemctl enable NetworkManager.service //MMMMMMMMMM
+- sudo systemctl enable NetworkManager.service //MMMMMMMMMM
 
 xf86-input-libinput
 
@@ -59,16 +72,23 @@ alsa-utils pulseaudio pulseaudio-alsa pavucontrol
 
 base-devel libx11 libxext
 
+xdg-user-dirs // `LC_ALL=C xdg-user-dirs-update` 命令可以强制创建英语目录
+
+```
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+```
 
 yay:
-optimus-manager optimus-manager-qt
-systemctl enable optimus-manager.service
+
+optimus-manager(systemctl enable optimus-manager.service)
+
+optimus-manager-qt
 
 ------------------------
 ## 配置 https://wiki.archlinux.org/title/Hardware_video_acceleration 
+
 nvidia nvidia-utils libva-vdpau-driver libva-utils libva-intel-driver
 
 ttf-joypixels wqy-microhei
@@ -81,7 +101,16 @@ brave-bin chromium-vaapi chromium-widevine firefox-beta-bin
 vivaldi vivaldi-ffmpeg-codecs
 
 yay:
-nerd-fonts-meslo nerd-fonts-fira-code ttf-sarasa-gothic ttf-twcns-fonts st
+
+nerd-fonts-meslo 
+
+nerd-fonts-fira-code 
+
+ttf-sarasa-gothic
+
+ttf-twcns-fonts
+
+st
 
 (<string>MesloLGMDZ Nerd Font Mono</string>)
 
@@ -108,6 +137,7 @@ sudo echo -e "export GTK_IM_MODULE=fcitx\nexport QT_IM_MODULE=fcitx\nexport XMOD
 ---
 
 openwrt
+
 ```
 perl-xml-parser bin86 asciidoc b43-fwcutter cdrtools mercurial fastjar intltool sharutils time xmlto qemu upx dtc lib32-glibc msmtp uglify-js libantlr3c gperf swig rsync
 ```
