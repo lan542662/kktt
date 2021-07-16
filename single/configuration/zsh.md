@@ -1,6 +1,6 @@
 ## zsh
 
-zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions fzf ripgrep
+zsh zsh-syntax-highlighting zsh-autosuggestions fzf ripgrep
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -39,27 +39,28 @@ export ZSH="/home/kktt/.oh-my-zsh"
 
 # 本来是ys ,启用了pure后设置成空或删除
 # 注意#后面的空格，注意pure的顺序靠后
+
+# #source $ZSH_CUSTOM/themes/pure/pure.zsh no need, but if need, could use absolute path.
+# zsh-autosuggestions zsh-syntax-highlighting must source foo.zsh.
+# don't install zsh-completions and zsh-completions  no need to source.
+# if any questions,just check if the path is in $fpath
+
 ZSH_THEME=""  
 fpath+=$ZSH_CUSTOM/themes/pure
-
-# zsh-autosuggestions zsh-completions zsh-syntax-highlighting  no need, just source foo.zsh.
-
 plugins=(git git-prompt sudo fzf ripgrep npm yarn systemd aliases alias-finder z history zsh_reload)
 
 source ~/github/z.sh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-source $ZSH_CUSTOM/themes/pure/pure.zsh
 source $ZSH/oh-my-zsh.sh
-# source ~/.bash_profile
+
 # You can't "export" your .bashrc to a .zshrc
-# source ~/.bash_profile
+# source ~/.bash_profile if below doesn't work
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 
-autoload -Uz compinit promptinit
-compinit
-promptinit
+autoload -U promptinit; promptinit
+autoload -U compinit && compinit
 zstyle ':prompt:pure:prompt:*' color cyan
 zstyle :prompt:pure:git:stash show yes
 prompt pure
