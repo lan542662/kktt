@@ -61,8 +61,9 @@ source $ZSH/oh-my-zsh.sh
 # source ~/.bash_profile if below doesn't work
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 
+# autoload the function compinit and to call it
 autoload -U promptinit; promptinit
-autoload -U compinit && compinit
+# autoload -U compinit && compinit to do
 zstyle ':prompt:pure:prompt:*' color cyan
 zstyle :prompt:pure:git:stash show yes
 prompt pure
