@@ -24,7 +24,11 @@ to:
 
 SHELL=/bin/zsh
 ```
-
+```
+插件问题 查找路径
+pacman -Ql zsh-autosuggestions-git
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
 git clone https://github.com/rupa/z.git ~/github
 
 git clone https://github.com/sindresorhus/pure.git "$ZSH_CUSTOM/themes/pure"
