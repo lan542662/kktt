@@ -48,6 +48,8 @@ source $ZSH/oh-my-zsh.sh
 autoload -Uz compinit promptinit
 compinit
 promptinit
+zstyle ':prompt:pure:prompt:*' color cyan
+zstyle :prompt:pure:git:stash show yes
 prompt pure
 
 
