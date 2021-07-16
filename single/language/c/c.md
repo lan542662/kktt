@@ -1,3 +1,5 @@
+https://en.m.wikibooks.org/wiki/Subject:Computer_programming_languages
+
 https://www.gnu.org/prep/standards/html_node/index.html
 
 https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html
