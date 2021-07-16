@@ -40,14 +40,18 @@ export ZSH="/home/kktt/.oh-my-zsh"
 # 本来是ys ,启用了pure后设置成空或删除
 # 注意#后面的空格，注意pure的顺序靠后
 ZSH_THEME=""  
-
-
-. ~/github/z.sh
-fpath+=$HOME/.zsh/pure
+fpath+=$ZSH_CUSTOM/themes/pure
 
 plugins=(git git-prompt sudo fzf ripgrep npm yarn zsh-autosuggestions zsh-completions zsh-syntax-highlighting yarn npm systemd aliases alias-finder z history zsh_reload)
 
+source ~/github/z.sh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZSH_CUSTOM/themes/pure/pure.zsh
 source $ZSH/oh-my-zsh.sh
+# source ~/.bash_profile
+# You can't "export" your .bashrc to a .zshrc
+# source ~/.bash_profile
+[[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 
 autoload -Uz compinit promptinit
 compinit
@@ -56,8 +60,6 @@ zstyle ':prompt:pure:prompt:*' color cyan
 zstyle :prompt:pure:git:stash show yes
 prompt pure
 
-
-
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
@@ -65,10 +67,6 @@ if [ -n "$WINDOWID" ]; then
         TRANSPARENCY_HEX=$(printf 0x%x $((0xffffffff * 80 / 100)))
         xprop -id "$WINDOWID" -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY "$TRANSPARENCY_HEX"
 fi
-
-[[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
-
-# You can't "export" your .bashrc to a .zshrc
 
 alias af='alias-finder'
 ```
