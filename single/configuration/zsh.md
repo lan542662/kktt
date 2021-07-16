@@ -4,6 +4,10 @@ zsh zsh-syntax-highlighting zsh-autosuggestions fzf ripgrep
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+git clone https://github.com/rupa/z.git ~/github
+
+git clone https://github.com/sindresorhus/pure.git "$ZSH_CUSTOM/themes/pure"
+
 ``` 一些问题 Restart your machine
 chsh -s $(which zsh) // echo $SHELL to check  ///chsh -l //usermod -s /usr/bin/zsh kktt
 root用户的shell别改，会出问题
@@ -29,9 +33,7 @@ SHELL=/bin/zsh
 pacman -Ql zsh-autosuggestions
 
 ```
-git clone https://github.com/rupa/z.git ~/github
 
-git clone https://github.com/sindresorhus/pure.git "$ZSH_CUSTOM/themes/pure"
 
 ```.zshrc
 
