@@ -6,7 +6,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ``` 一些问题 Restart your machine
 chsh -s $(which zsh) // echo $SHELL to check  ///chsh -l //usermod -s /usr/bin/zsh kktt
-- chsh -s /bin/zsh root
+root用户的shell别改，会出问题
 - sudo chsh -s /bin/zsh $USER
 - usermod -s /bin/zsh kktt
 - 已存在的Home // adduser --home /home/kktt kktt
