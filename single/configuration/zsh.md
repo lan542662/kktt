@@ -4,7 +4,7 @@ zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions fzf ripgrep
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-``` 一些问题
+``` 一些问题 Restart your machine
 chsh -s $(which zsh) // echo $SHELL to check  ///chsh -l //usermod -s /usr/bin/zsh kktt
 - chsh -s /bin/zsh root
 - sudo chsh -s /bin/zsh $USER
