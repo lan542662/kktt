@@ -4,12 +4,26 @@ zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions fzf ripgrep
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+``` 一些问题
 chsh -s $(which zsh) // echo $SHELL to check  ///chsh -l //usermod -s /usr/bin/zsh kktt
 - chsh -s /bin/zsh root
 - sudo chsh -s /bin/zsh $USER
 - usermod -s /bin/zsh kktt
 - 已存在的Home // adduser --home /home/kktt kktt
 - exec /bin/zsh or exec /usr/bin/zsh
+- /etc/adduser.conf
+
+DSHELL=/bin/sh
+to:
+
+DSHELL=/bin/zsh
+
+/etc/default/useradd
+SHELL=/bin/sh
+to:
+
+SHELL=/bin/zsh
+```
 
 git clone https://github.com/rupa/z.git ~/github
 
