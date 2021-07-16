@@ -1,5 +1,7 @@
 A-Z Index of the Linux BASH command line
 
+https://explainshell.com/explain?cmd=df
+
 $@
 
 https://sodocumentation.net/bash/topic/4797/internal-variables
