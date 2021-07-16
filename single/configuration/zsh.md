@@ -44,7 +44,7 @@ fpath+=$ZSH_CUSTOM/themes/pure
 
 # zsh-autosuggestions zsh-completions zsh-syntax-highlighting  no need, just source foo.zsh.
 
-plugins=(git git-prompt sudo fzf ripgrep npm yarn yarn npm systemd aliases alias-finder z history zsh_reload)
+plugins=(git git-prompt sudo fzf ripgrep npm yarn systemd aliases alias-finder z history zsh_reload)
 
 source ~/github/z.sh
 # source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh  no need
@@ -72,5 +72,21 @@ if [ -n "$WINDOWID" ]; then
         xprop -id "$WINDOWID" -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY "$TRANSPARENCY_HEX"
 fi
 
+alias h='history'
+alias ai='sudo pacman -S'
+alias aiy='sudo pacman -Sy'
+alias aiyu='sudo pacman -Syu'
+alias aiyy='sudo pacman -Syy'
+
+alias home='cd ~'
+
+alias ..='cd ../'                           # Go back 1 directory level
+alias ...='cd ../../'                       # Go back 2 directory levels
+alias .3='cd ../../../'                     # Go back 3 directory levels
+alias .4='cd ../../../../'                  # Go back 4 directory levels
+alias .5='cd ../../../../../'               # Go back 5 directory levels
+alias .6='cd ../../../../../../'            # Go back 6 directory levels
+
 alias af='alias-finder'
+
 ```
