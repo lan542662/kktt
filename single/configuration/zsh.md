@@ -27,7 +27,7 @@ SHELL=/bin/zsh
 ```
 插件问题 查找路径
 pacman -Ql zsh-autosuggestions
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 ```
 git clone https://github.com/rupa/z.git ~/github
 
@@ -47,9 +47,8 @@ fpath+=$ZSH_CUSTOM/themes/pure
 plugins=(git git-prompt sudo fzf ripgrep npm yarn yarn npm systemd aliases alias-finder z history zsh_reload)
 
 source ~/github/z.sh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-completions/zsh-completions.zsh
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh  no need
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source $ZSH_CUSTOM/themes/pure/pure.zsh
 source $ZSH/oh-my-zsh.sh
