@@ -8,3 +8,5 @@ https://myhsts.org/tutorial-introduction-to-linux-operating-system-for-system-ad
 https://ryanstutorials.net/linuxtutorial/
 
 https://www.linuxtopia.org/online_books/index.html
+
+https://www.linux.com/training-tutorials/
