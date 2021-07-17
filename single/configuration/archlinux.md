@@ -94,7 +94,7 @@ nvidia nvidia-utils libva-vdpau-driver libva-utils libva-intel-driver
 ttf-joypixels wqy-microhei
 (<string>文泉驿等宽微米黑</string>)
 
-p7zip unrar tar unzip unarchiver tftp-hpa neovim xclip meld tmux weechat neofetch terminator flameshot mpv smplayer gstreamer gst-libav gst-plugins-good
+p7zip unrar tar unzip unarchiver tftp-hpa fd neovim xclip meld tmux weechat neofetch terminator flameshot mpv smplayer gstreamer gst-libav gst-plugins-good
 
 brave-bin chromium-vaapi chromium-widevine firefox-beta-bin
 
