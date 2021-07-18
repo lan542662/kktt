@@ -71,6 +71,9 @@ prompt pure
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+export QT_SCALE_FACTOR=1.5
+
 if [ -n "$WINDOWID" ]; then
         TRANSPARENCY_HEX=$(printf 0x%x $((0xffffffff * 80 / 100)))
         xprop -id "$WINDOWID" -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY "$TRANSPARENCY_HEX"
