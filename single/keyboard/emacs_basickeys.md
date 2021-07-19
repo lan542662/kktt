@@ -1,5 +1,11 @@
 http://www.cheat-sheets.org/saved-copy/readline-emacs-editing-mode-cheat-sheet.pdf
 
+[Readline Cheat Sheet](https://readline.kablamo.org/emacs.html)
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Basic.html
+
+[Emacs Cheat Sheet | ShortcutFoo](https://www.shortcutfoo.com/app/dojos/emacs/cheatsheet)
+
 https://man.cx/readline(3)
 
 https://wiki2.org/en/Emacs
