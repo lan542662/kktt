@@ -37,6 +37,10 @@ https://www.tutorialspoint.com/unix/shell_scripting.htm
 
 https://tldp.org/LDP/abs/html/index.html
 
+[Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
+
+[Bash documentation — DevDocs](https://devdocs.io/bash/)
+
 https://sodocumentation.net/bash
 
 https://riptutorial.com/bash/topic/4797/internal-variables
