@@ -13,3 +13,7 @@ https://thepythonguru.com/
 https://python.land/introduction-to-python
 
 https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial
+
+https://docs.python.org/3/tutorial/interpreter.html
+
+https://www.aliyundrive.com/drive/folder/60f30be43c02d2fcfd9446e0abc327918f9be990
