@@ -15,3 +15,14 @@ ipad app list
 ![IMG_0069](https://kktt007.top/cfg/IMG_0069.PNG)
 ![IMG_0067](https://kktt007.top/cfg/IMG_0067.PNG)
 ![IMG_0068](https://kktt007.top/cfg/IMG_0068.PNG)
+
+
+## fileBrowser 配置
+https://kktt007.top/ipad/IMG_0127.PNG
+1. 保证ipad截图为空
+
+2. 使用name and counter重命名
+001
+2021_07_20_
+
+3. 批量上传
